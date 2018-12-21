@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i|PT+Serif:400,400i,700" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Science Musings</title>
+</head>
+
+<body>
+    <header id="mainHeader">
+        <a href="#mainContent" class="sr-only">Skip to main content</a>
+        <!-- NAVIGATION -->
+        <nav id="mainNav" class="navbar navbar-expand-md navbar-dark bg-dark shadow fixed-top">
+            <a href="index.html" class="navbar-brand">Science Musings</a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="https://www.chetraymo.com" class="nav-link"><i class="fas fa-chevron-circle-right"></i>
+                        ChetRaymo.com</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main id="mainContent">
+        <!-- HOME -->
+        <section id="home" class="pt-5">
+            <div class="jumbotron mb-0">
+                <div class="container">
+                    <div class="col-6 col-sm-9">
+                        <h1 class="display-4 main-title">Science Musings</h1>
+                        <span class="h2 sub-title">by Chet Raymo</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="bg-light">
+            <div class="container py-3">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="lead">
+                            Science writer and naturalist Chet Raymo&rsquo;s weekly <em><strong>Science Musings</strong></em>
+                            column appeared in the
+                            <em>Boston
+                                Globe</em></Boston> from 1983 to 2003. The column offered informed and provocative
+                            meditations
+                            on science as a creative human activity and
+                            celebrated the grandeur and mystery of the natural world.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Chet continued writing <em><strong>Science Musings</strong></em> for a global audience on
+                            his
+                            blog from 2004 until his
+                            retirement from writing in 2016. In over thirty years, both in print and online, he
+                            produced
+                            over
+                            one
+                            thousand essays and four thousand blog posts exploring science and nature.</p>
+                        <p>A comprehensive <em><strong>Science Musings</strong></em> archive will launch in
+                            2019.</p>
+                    </div>
+                    <div class="col-md-6"><img src="img/chris-lawton-154388-unsplash.jpg" alt="Autumnal leaves hanging from line"
+                            class="img-fluid rounded"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SIGNUP -->
+        <section id="signup">
+            <div class="container text-white py-3">
+                <p>If you would like to be alerted by email when the <em><strong>Science Musings</strong></em> site
+                    launches,
+                    please enter your
+                    email address below.</p>
+
+                <form>
+                    <div class="form-group col-sm-4 mx-auto">
+                        <input type="email" class="form-control my-2 mr-2" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                        <button type="submit" class="btn btn-success btn-block">Submit</button>
+                    </div>
+                </form>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="mainFooter" class="text-white pt-3">
+        <div class="container">
+            <div class="text-center pb-2">
+                <p>
+                    <a href="https://twitter.com/sciencemusings"><i class="fab fa-twitter"></i>
+                        @sciencemusings</a></p>
+                <p>
+                    Copyright &copy; <span id="year"></span> Chet Raymo / Website by Tom Raymo
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script>
+        // Put the current year in the copyright notice
+        $("#year").text(new Date().getFullYear());
+    </script>
+</body>
+
+</html>

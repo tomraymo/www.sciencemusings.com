@@ -1,0 +1,47 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+    border-bottom: 2px darkgreen solid;
+    background-color: #111 !important;
+}
+
+.navbar-brand,
+.main-title,
+.sub-title {
+    font-family: "PT Serif";
+    font-weight: 700;
+}
+
+.main-title,
+.sub-title {
+    text-shadow: 3px 3px 6px black;
+}
+
+.sub-title {
+    position: relative;
+    top: -0.8rem;
+    left: 2rem;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.jumbotron {
+    background: url("../img/samuel-myles-93697-unsplash-crop.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 !important;
+    color: #fff;
+}
+
+#signup {
+    background: url("../img/samuel-myles-93697-unsplash-crop2.jpg");
+    background-size: cover;
+    background-position: bottom;
+    border-bottom: 2px darkgreen solid;
+}
+
+#mainFooter {
+    background-color: #111;
+}
