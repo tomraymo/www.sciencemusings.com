@@ -9,7 +9,8 @@ body {
 
 .navbar-brand,
 .main-title,
-.sub-title {
+.sub-title,
+h4 {
     font-family: "PT Serif";
     font-weight: 700;
 }
